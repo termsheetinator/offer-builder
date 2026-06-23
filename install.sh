@@ -86,7 +86,7 @@ HOOK_CMD='bash "$CLAUDE_PROJECT_DIR/.claude/hooks/offer-builder-active.sh"'
 # ── Step 1: Install Skill File ─────────────────────────────────────────────────
 mkdir -p "$SKILL_DIR/offer-builder"
 (
-  curl -fsSL "$BASE_URL/offer-builder.md" -o "$SKILL_DIR/offer-builder/SKILL.md"
+  curl -fsSL "$BASE_URL/SKILL.md" -o "$SKILL_DIR/offer-builder/SKILL.md"
   [ -s "$SKILL_DIR/offer-builder/SKILL.md" ]
 ) &
 spinner $! "/offer-builder  — offer engine installed to ~/.claude/skills/"

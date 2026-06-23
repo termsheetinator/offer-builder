@@ -397,7 +397,7 @@ curl -fsSL https://raw.githubusercontent.com/termsheetinator/offer-builder/main/
 
 | File | What it does |
 |---|---|
-| `offer-builder.md` | The skill — installs to `~/.claude/skills/offer-builder/SKILL.md` |
+| `SKILL.md` | The skill itself — installs to `~/.claude/skills/offer-builder/SKILL.md` |
 | `install.sh` | One-command installer — skill, hook, memory, settings |
 | `.claude/hooks/offer-builder-active.sh` | Injects your memory into every session |
 | `.claude/settings.json` | Wires the hook to `UserPromptSubmit` |
