@@ -2,6 +2,7 @@
 
 ![Offer-Builder Banner](public/offer-builder-banner.png)
 
+[![Release](https://img.shields.io/github/v/release/termsheetinator/offer-builder?label=release&color=orange)](https://github.com/termsheetinator/offer-builder/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/code)
 [![Built by termsheetinator](https://img.shields.io/badge/Built%20by-termsheetinator-black)](https://github.com/termsheetinator)
