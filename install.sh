@@ -53,7 +53,8 @@ spinner() {
 }
 
 # ── Banner ────────────────────────────────────────────────────────────────────
-clear
+# Tolerate environments with no TERM set — never let a cosmetic clear abort the install.
+clear 2>/dev/null || true
 
 printf "${GREEN}"
 cat << 'BANNER'
